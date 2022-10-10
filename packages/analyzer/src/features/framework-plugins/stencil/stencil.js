@@ -3,7 +3,7 @@ import { decorator, toKebabCase } from '../../../utils/index.js'
 export function stencilPlugin() {
   let events = [];
 
-  const METHOD_DENYLIST = ['componentWillLoad', 'componentDidLoad', 'componentShouldUpdate', 'componentWillRender', 'componentDidRender', 'componentWillUpdate', 'componentDidUpdate'];
+  const METHOD_DENYLIST = ['componentWillLoad', 'componentDidLoad', 'componentShouldUpdate', 'componentWillRender', 'componentDidRender', 'componentWillUpdate', 'componentDidUpdate', 'render'];
 
   return {
     name: 'CORE - STENCIL',
